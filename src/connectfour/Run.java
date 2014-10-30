@@ -44,6 +44,7 @@ public class Run implements ActionListener, ItemListener {
         menuItem.addActionListener(this);
         menu.add(menuItem);
         menu.addSeparator();
+        
         menuItem = new JMenuItem("Quit", KeyEvent.VK_Q);
         menuItem.setName("QuitGame");
         menuItem.addActionListener(this);
